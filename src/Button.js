@@ -4,7 +4,7 @@ import "./Button.css"
 
 class Button extends Component {
   render() {
-    return <button className="button">{this.props.number}</button>
+    return <button className="button">Click Me</button>
   }
 }
 

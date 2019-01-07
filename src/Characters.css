@@ -1,0 +1,26 @@
+.characters {
+  display: flex;
+  flex-direction: row;
+}
+
+.character {
+  text-align: center;
+}
+
+.character b {
+  display: block;
+}
+
+.character-level {
+  color: #a49f9f;
+}
+
+.character-image:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  top: 4px;
+}
+
+.character-image:active {
+  top: 4px;
+}

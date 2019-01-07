@@ -5,6 +5,7 @@ import "./App.css"
 
 import Header from "./Header"
 import Album from "./Album"
+import Characters from "./Characters"
 
 class App extends Component {
   state = {
@@ -29,7 +30,15 @@ class App extends Component {
           <button onClick={this.click}>Click Me!</button>
         </div>
 
+        <h3>Album:</h3>
+
         <Album />
+
+        <h3>Characters:</h3>
+
+        <hr className="hr-primary" />
+
+        <Characters />
       </main>
     )
   }

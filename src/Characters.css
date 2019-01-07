@@ -24,3 +24,7 @@
 .character-image:active {
   top: 4px;
 }
+
+.character-level {
+  font-weight: 300;
+}

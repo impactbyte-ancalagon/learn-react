@@ -23,22 +23,24 @@ class App extends Component {
 
   render() {
     return (
-      <main className="container">
-        <Header />
+      <main className="app">
         <div>
-          <p>{this.state.counter} clicks</p>
-          <button onClick={this.click}>Click Me!</button>
+          <Header />
+          <div>
+            <button onClick={this.click}>Click Me!</button>{" "}
+            <span>{this.state.counter} clicks</span>
+          </div>
         </div>
 
-        <h3>Album:</h3>
+        <div>
+          <h3>Album:</h3>
+          <Album />
+        </div>
 
-        <Album />
-
-        <h3>Characters:</h3>
-
-        <hr className="hr-primary" />
-
-        <Characters />
+        <div>
+          <h3>Characters:</h3>
+          <Characters />
+        </div>
       </main>
     )
   }

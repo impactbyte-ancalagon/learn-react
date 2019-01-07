@@ -4,7 +4,7 @@ class Header extends Component {
   render() {
     return (
       <header>
-        <h1>Learn React with Ancalagon</h1>
+        <h1>Learn React</h1>
       </header>
     )
   }

@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
 
 import Header from "./Header"
+import Album from "./Album"
 
 class App extends Component {
   state = {
@@ -27,6 +28,8 @@ class App extends Component {
           <p>{this.state.counter} clicks</p>
           <button onClick={this.click}>Click Me!</button>
         </div>
+
+        <Album />
       </main>
     )
   }

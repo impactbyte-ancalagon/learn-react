@@ -21,12 +21,13 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <main className="container">
         <Header />
-        <p>{this.state.name}</p>
-        <p>{this.state.counter} clicks</p>
-        <button onClick={this.click}>Click Me!</button>
-      </div>
+        <div>
+          <p>{this.state.counter} clicks</p>
+          <button onClick={this.click}>Click Me!</button>
+        </div>
+      </main>
     )
   }
 }
